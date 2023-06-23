@@ -1,0 +1,157 @@
+/* font-family: 'Berkshire Swash', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F9E0BB;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #root {
+    position: relative;
+    height: 100vh;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+/* Welcome Page  */
+
+  .main-div {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .main-heading-div {
+    color: #C38154;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-heading-div .main-heading {
+    margin: 0;
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+  
+  .main-heading-div p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .main-heading-div span {
+    font-family: 'Dancing Script', cursive;
+    color: #884A39;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  
+  .button-div {
+    text-align: center;
+  }
+
+  .main-button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    width: 7.3rem;
+    height: 3.45rem;
+    background-color: #884A39;
+    color: #F9E0BB;
+    border: none;
+    border-radius: 8px;
+    margin: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+.main-button:hover {
+  background-color: #743928;
+}
+
+.main-button:active {
+  background-color: #5C2B20;
+}
+
+/* Login Page  */
+
+.login-form-div {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-style {
+  border-radius: 2px;
+  background-color: #FFECD0;
+  border: none;
+  width: 28.75rem;
+  height: 2.5rem;
+  color: #C38154;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: text; 
+}
+
+.input-style:focus {
+  outline: none;
+  border: 1px solid #C38154;
+}
+
+.input-style::placeholder {
+  color: #c28d69;
+}
+
+.login-heading-form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.login-heading-form h1{
+  color: #743928;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-text p{
+  color: #C38154;
+  font-size: 1.2rem;
+  
+}
+.bottom-text a{
+  text-decoration: none;
+  color:#743928; 
+  font-weight: bolder;
+}
+
+.form button{
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
