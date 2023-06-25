@@ -1,6 +1,12 @@
 import React from "react";
 import Input from "./Input";
 import Button from "./Button";
+import Instruction from "./Instruction";
+import Library from "./Library";
+import Favorites from "./Favorites";
+import Description from "./Description";
+import Contact from "./Contact";
+
 function Content() {
   return (
     <div className="content">
@@ -21,13 +27,7 @@ function Content() {
       </div>
 
       <div className="main-section">
-        <div className="instruction-div">
-          <div className="instruction">
-            <p>
-              Search Books and set their “status” to add them to your library
-            </p>
-          </div>
-        </div>
+        <Description />
       </div>
     </div>
   );

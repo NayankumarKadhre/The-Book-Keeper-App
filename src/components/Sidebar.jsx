@@ -9,7 +9,7 @@ function Sidebar() {
   };
 
   return (
-    <div className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
+    <div className={"sidebar " + (sidebarOpen ? "open" : "closed")}>
       <div>
         {/* Icon div */}
         <div>

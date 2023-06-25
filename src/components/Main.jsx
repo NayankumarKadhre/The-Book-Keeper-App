@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 function Main() {
@@ -12,7 +12,7 @@ function Main() {
       </div>
 
       <div className="button-div">
-        <Button text="Log in" name="main-login"></Button>
+        <Button onClick="handleLogin" text="Log in" name="main-login"></Button>
         <Button text="Sign Up" name="main-signup"></Button>
       </div>
     </div>
