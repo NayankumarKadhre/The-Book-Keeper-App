@@ -1,7 +1,28 @@
 import React, { useState } from "react";
 import bookCover from "./bookcover.jpg";
 import Info from "./Info";
+import axios from "axios";
+import { useEffect } from "react";
 function Description() {
+  const key = "AIzaSyDQS2j-EyUvoo6EtBE3o_eRDM9VJ4CPk9M";
+  const userSearch = "harry potter";
+  const [book, setBook] = useState(null);
+
+  useEffect(() => {
+    axios
+      .get(
+        `https://www.googleapis.com/books/v1/volumes?q=${userSearch}&key=${key}`
+      )
+      .then((response) => {
+        setBook(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching book:", error);
+      });
+  }, []);
+
+  console.log(book);
+
   const [isFavorite, setIsFavorite] = useState(false);
 
   const handleFavorite = () => {

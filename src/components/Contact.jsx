@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Contact() {
   return (
-    <div className="login-form-div">
+    <div className="login-form-div contact-form">
       <div className="login-heading-form">
         <h1>Contact Us</h1>
         <form className="form" action="/contact" method="POST">
