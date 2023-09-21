@@ -1,6 +1,6 @@
 # The Book Keeper App
 
-The Book Keeper is a meticulously designed web application that offers users a streamlined and intuitive experience for managing their reading materials. This innovative app empowers users to search for books and categorize them into three distinct libraries: Reading, Read, and Will Read. Moreover, it allows you to curate a Favorites Library, exclusively dedicated to your most cherished books. With its user-friendly and aesthetically pleasing design, The Book Keeper is committed to enhancing your reading journey, making it both enjoyable and efficient.
+The Book Keeper is a meticulously designed web application, meticulously crafted using HTML, CSS, JavaScript, and React.js, that offers users a streamlined and intuitive experience for managing their reading materials. This innovative app empowers users to search for books and categorize them into three distinct libraries: Reading, Read, and Will Read. Moreover, it allows you to curate a Favorites Library, exclusively dedicated to your most cherished books. With its user-friendly and aesthetically pleasing design, The Book Keeper is committed to enhancing your reading journey, making it both enjoyable and efficient.
 
 # Key Features:
 
